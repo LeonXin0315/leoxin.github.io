@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>League of Legends Community and Esports</title>
+	<link rel="stylesheet" href="styles.css">
+	<style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("/Users/xinmale/Desktop/Wireform png/website/images/2299110295.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*filter: blur(1px)*/
+            color: white;
+        }
+
+        body.dark-mode {
+            background-color: #111;
+        }
+
+        header {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        header.dark-mode {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 30px;
+        }
+
+        .image-container img {
+            max-width: 400px;
+            margin: 10px;
+        }
+
+        .alt-style {
+            background-color: #333;
+            color: #fff;
+        }
+
+        a {
+            color: rgba(27, 230, 101, 0.48);
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+        }
+
+        nav ul li.active a {
+            color: #ef2424;
+            text-decoration: underline;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                max-width: 400px;
+            }
+
+            .gameplay-image {
+                max-width: 300px;
+            }
+        }
+
+        @media only screen and (min-width: 601px) and (max-width: 1024px) {
+            .container {
+                max-width: 600px;
+            }
+
+            .gameplay-image {
+                max-width: 400px;
+            }
+        }
+
+        @media only screen and (min-width: 1025px) {
+            .container {
+                max-width: 800px;
+            }
+
+            .gameplay-image {
+                max-width: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+	<header>
+		<h1>League of Legends Community and Esports</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home Page</a></li>
+				<li><a href="2ndpage.html">Popular Champions</a></li>
+				<li><a href="3rdpage.html">Strategies and Tactics</a></li>
+				<li class="active"><a href="4thpage.html">Community and Esports</a></li>
+			</ul>
+		</nav>
+	</header>	
+
+	<div class="container">
+		<button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+		<h2>League of Legends - More Than Just a Game</h2>
+		<p>When it comes to esports, League of Legends stands at the top of video games and for a good reason. It has popularity, competition, and practically endless playtime.</p>
+
+		<h3>Why is League of Legends so Popular in Esports?<a href="https://lolesports.com/schedule?leagues=msi">Visit Esports	</a></h3>
+
+		<p>The primary reason for LoL's popularity is its accessibility. League of Legends is one of the first video games to introduce a free-to-play model to success. They released the game without any price tag. Instead, the company monetized through cosmetics that provided no in-game benefits aside from aesthetics.</p>
+        <p>LoL has sponsored tournaments globally to gather talent from different areas and pit them out against one another. Some of these areas include:</p>
+		<video controls>
+			<source src="/Users/xinmale/Desktop/Wireform png/website/images/yt5s.io-Worlds 2023 Venue Announcement(720p).mp4" type="video/mp4">
+		  </video>
+		<!-- <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/riot-games-the-team-behind-worlds-2022-esports-broadcast-league-of-legends.png" alt="Minimap">
+        </div> -->
+
+		<h3>Europe</h3>
+		<p>Europe is home to the League of Legends European Championship (LEC), which is one of the top professional LoL leagues in the world. Some of the most popular and successful teams in the LEC include G2 Esports, Fnatic, and Rogue. Some of the most well-known European players include Martin "Rekkles" Larsson, Rasmus "Caps" Winther, and Luka "Perkz" Perkovic.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/afkgaming_2023-02_481114b9-edf5-4657-b35d-1d70fb446867_Untitled_design___2023_02_07T185005_184.avif" alt="Minimap">
+        </div>
+
+		<h3>South Korea</h3>
+		<p>South Korea is widely regarded as the most competitive region in the world for LoL. The top professional league in South Korea is the League of Legends Champions Korea (LCK). Some of the most successful and popular teams in the LCK include T1, DAMWON Gaming, and Gen.G. Some of the most well-known South Korean players include Lee "Faker" Sang-hyeok, Kim "Canyon" Geon-bu, and Cho "BeryL" Geon-hee.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/LeagueOfLegends_Worlds2022_T1Faker_ThumbsUp.jpg" alt="Minimap">
+        </div>
+
+		<h3>China</h3>
+		<p>China has the League of Legends Pro League (LPL), which is another top professional LoL league in the world. Some of the most popular and successful teams in the LPL include FunPlus Phoenix, Royal Never Give Up, and Invictus Gaming. Some of the most well-known Chinese players include Jian "Uzi" Zi-Hao, Zhuo "Knight" Ding, and Ming "Clearlove" Kai.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/741.jpg" alt="Minimap">
+        </div>
+
+		<h3>North America</h3>
+		<p>North America has the League of Legends Championship Series (LCS), which is the top professional LoL league in the region. Some of the most successful and popular teams in the LCS include Team SoloMid, Cloud9, and 100 Thieves. Some of the most well-known North American players include Soren "Bjergsen" Bjerg, Zachary "Sneaky" Scuderi, and Peter "Doublelift" Peng.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/league-of-legends-bjergsen-is-a-new-red-bull-athlete.avif" alt="Minimap">
+        </div>
+
+		<h3>South America</h3>
+		<p>South America has the Liga Latinoamerica (LLA), which is the top professional LoL league in the region. Some of the most successful and popular teams in the LLA include All Knights, Isurus Gaming, and Furious Gaming. Some of the most well-known South American players include Matias "WhiteLotus" Musso, Rodrigo "Tay" Panisa, and Diego "Arce" Arce.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/R7_WhiteLotus_2018MSI.jpg" alt="Minimap">
+        </div>
+
+		<h3>Asia-Pacific</h3>
+		<p>The Asia-Pacific region has a number of professional LoL leagues, including the Pacific Championship Series (PCS), the League of Legends Pro League Pacific (LPLP), and the League of Legends Circuit Oceania (LCO). Some of the most successful and popular teams in these leagues include Machi Esports, PSG Talon, and Pentanet.GG. Some of the most well-known players in the region include Kang "SwordArt" Sun-gu, Wong "Unified" Chun Kit, and Mitchell "Destiny" Shaw.</p>
+        <div class="image-container">
+            <img src="/Users/xinmale/Desktop/Wireform png/website/images/i1606403974928050.jpeg" alt="Minimap">
+        </div> 
+    </div>
+
+	<script>
+		function toggleDarkMode() {
+		  var body = document.body;
+		  body.classList.toggle('dark-mode');
+		}
+	  </script>		 
+</body>
+</html>
+
+	

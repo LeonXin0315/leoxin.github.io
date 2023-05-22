@@ -1,0 +1,111 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("/Users/xinmale/Desktop/Wireform png/website/images/2299110295.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+body.dark-mode {
+  background-color: #111;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+header.dark-mode {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a.dark-mode {
+  color: #000;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.container.dark-mode {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.article {
+  margin-bottom: 20px;
+}
+
+.gameplay-section h2 {
+  margin-top: 20px;
+}
+
+.gameplay-section a {
+  color: #1be665;
+  text-decoration: none;
+}
+
+.gameplay-section a.dark-mode {
+  color: #1be665;
+}
+
+.gameplay-section ul {
+  padding-left: 30px;
+}
+
+.gameplay-section aside {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.gameplay-section aside.dark-mode {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #1be665;
+}
+
+.image-container img.dark-mode {
+  border-color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .gameplay-image {
+    max-width: 200px;
+  }
+}
